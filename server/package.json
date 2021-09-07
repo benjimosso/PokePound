@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "watch": "nodemon",
     "seed": "node seeders/seed.js",
     "seedpokemon": "node seeders/seedpokemon.js"
@@ -21,7 +21,4 @@
     "node-pre-gyp": "^0.17.0",
     "validator": "^13.6.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
-  }
 }
